@@ -1,0 +1,61 @@
+body {
+    background: #f8e4e4; /* Fondo*/
+
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff; /* Fondo menú */
+}
+
+h1 {
+    font-family: 'Impact', sans-serif; /* Tipografía */
+    color: #d5006d; /* temático */
+}
+
+h2 {
+    color: #c2185b;
+}
+
+.established {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: inline-block; 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #d1c4e9;
+    border-radius: 5px;
+}
+
+.flavor, .topping {
+    float: left; /*izquierda */
+}
+
+.price {
+    float: right; /* derecha */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+a {
+    color: #d5006d; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c2185b; 
+}
+
+a:visited {
+    color: #9c27b0; /* visitado */
+}
